@@ -1,0 +1,105 @@
+.navbar-brand{
+ font-family: 'Qwitcher Grypen', cursive;
+ font-size: 2.5em;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.jumbotrox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home_video{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.teste{
+    position: absolute;
+    display:block;
+    text-align: center;
+}
+
+main {
+    background-image:url(https://img.freepik.com/fotos-gratis/fundo-de-papel-de-espaco-de-design-texturizado_53876-18009.jpg?w=740&t=st=1662727877~exp=1662728477~hmac=c7d502b811341dabe8cf4714c1043fe75dc37e3d6645b4e7c897b96b6d428807);
+    background-size: cover;
+}
+
+.projeto_1 {
+    background-image: url('autenticador.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.my-3, .p-3{
+    background-color: #ffffffa1;
+    color: black;
+    border-radius: 5%;
+}
+
+
+.projeto_2 {
+    background-image: url('loja_hortifruti.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.projeto_3 {
+    background-image: url('curso_musica.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-blend-mode: overlay;
+}
+
+.bg-light{
+    --bs-bg-opacity: 0;
+}
+
+.projeto_4 {
+    background-image: url('encontra_profissionais.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+@media (min-width: 992px){
+.d-md-flex {
+    display: flex!important;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 3em;
+   }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-md-flex, .flex-md-equal, .w-100, .my-md-3, .ps-md-3{
+justify-content: space-evenly;
+}
+}
